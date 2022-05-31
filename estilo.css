@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Aca comienza el Header/Menu Nav */
+.buttonnavbar-toggler {
+    background-color: white;
+
+}
+.logo {
+    width: 280px;
+}
+
+.nav-link  {
+    color: white; 
+    margin-left: 50px; 
+}
+
+.login1 a:hover {
+    color: white;
+}
+
+.navbar li {
+    font-size: 28px;
+    padding-left: 38px;
+    padding-right: 38px;
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(195, 144, 13);
+}
+
+.li.nav-item 
+a.nav-link {
+    font-family: 'Bebas Neue';
+
+}
+
+/* Aca comienza  Main-Img Portada-Tabla de Información */
+
+main {
+    background-color: rgb(37, 36, 36);
+}
+
+
+/* Aca comienzan Formularios Log-in */
+
+.mainlogin {
+    background-color:rgb(195, 144, 13) ;
+}
+
+form {
+    background-color:white;
+    padding: 40px;
+}
+
+ul {
+    list-style: none;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+}
+
+h4 {
+    color: white;
+    font-weight: bold;
+}
+
+tr {
+    background: rgb(37, 36, 36);
+}
+
+th {
+    color: rgb(195, 144, 13);
+    font-family: 'Bebas Neue';
+    margin-left: 200px;
+    font-size: x-large;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+
+.formulario {
+    width: auto;
+    background-color: rgb(195, 144, 13)
+}
+
+/* Aca comienza Footer/Pie de pagina/Info */
+
+
+.list-group-item{
+    background-color:rgb(37, 36, 36);
+}
+
+.text-center {
+    margin: auto;
+    padding: 1rem;
+}
+
+.card-title {
+    font-family: 'Bebas Neue';
+    font-size: xx-large; 
+}
+
+.Quienessomos {
+    font-size: smaller;
+}
+
+/* QUIENES SOMOS */
+.bodyimg {
+    background-image: url(./Fotos/Quienes\ somos.jpg);
+    align-items: center;
+}
+
+p {
+    color: white;
+    width: 60%;
+    font-family: 'Bebas Neue';
+}
+
+h3.text-center{
+    color:rgb(195, 144, 13) ;
+    font-family: 'Bebas Neue';
+}
+
+.contenedorkits {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(37, 36, 36) ;
+}
+
+.kitsfotos {
+    border: solid;
+    margin: 40px;
+}
+
+.navbarbaybigote {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;  
+}
+
+.contenedorbarbaybigote {
+    background-color: white;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.barbafotos {
+    width: 374px;
+    height: 255px;
+    margin: 40px;
+}
+
+.presetnacionesimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
